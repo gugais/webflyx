@@ -1,0 +1,14 @@
+Switch to the add_classics branch if you're not already on it.
+Create a new file called classics.csv at the root of the project and copy/paste the following content into it:
+title, director, year
+One Crazy Summer, Savage Steve Holland, 1986
+The Princess Bride, Rob Reiner, 1987
+The Goonies, Richard Donner, 1985
+The Breakfast Club, John Hughes, 1985
+Monty Python and the Holy Grail, Terry Gilliam, 1975
+
+Stage and commit the new file. The commit message should start with D:, in the same format as the previous exercises.
+Run git log to make sure everything looks as you'd expect.
+Run and submit the CLI tests from the branch you're on (should be add_classics).
+
+You should be able to see which commits each branch tip points to in the log output. The main branch should point to commit "C" which should be right before your most recent commit "D" that add_classics points to.
